@@ -8,5 +8,11 @@
             "email": "1016516927@qq.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core",
+            "Application\\": "Application"
+        }
+    }
 }

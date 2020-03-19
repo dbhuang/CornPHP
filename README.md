@@ -24,4 +24,17 @@
     "require": {}
 }
 
+在composer.json添加autoload相关配置，然后执行composer dump-autoload使其生效
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core",
+            "Application\\": "Application"
+        }
+    }
+
+
+
+配置好Core和Application两个命名空间极其对应目录
+在bin/cron.php引入vender中的autoload.php实现自动文件引入
+
 ```
