@@ -1,0 +1,12 @@
+{
+    "name": "dbhuang/cron-php",
+    "description": "This is a PHP learning framework based on swoole",
+    "type": "project",
+    "authors": [
+        {
+            "name": "dbhuang",
+            "email": "1016516927@qq.com"
+        }
+    ],
+    "require": {}
+}
